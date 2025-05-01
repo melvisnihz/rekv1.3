@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .bg-selector {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 1em;
+  }
+
+  .bg-selector button {
+    padding: 0.5em 1em;
+    border: none;
+    background: #333;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+
+  .bg-selector button:hover {
+    background: #555;
+  }
+}
